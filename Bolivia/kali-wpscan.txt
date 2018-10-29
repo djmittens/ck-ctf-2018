@@ -1,0 +1,994 @@
+wpscan --url http://52.9.13.75:30100 --enumerate p | xclip -i -selection clipboard
+
+[+] WordPress theme in use: twentyseventeen - v1.3
+
+[+] Name: twentyseventeen - v1.3
+ |  Last updated: 2018-08-02T00:00:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/themes/twentyseventeen/
+ |  Readme: http://52.9.13.75:30100/wp-content/themes/twentyseventeen/README.txt
+[!] The version is out of date, the latest version is 1.7
+ |  Style URL: http://52.9.13.75:30100/wp-content/themes/twentyseventeen/style.css
+ |  Theme Name: Twenty Seventeen
+ |  Theme URI: https://wordpress.org/themes/twentyseventeen/
+ |  Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a...
+ |  Author: the WordPress team
+ |  Author URI: https://wordpress.org/
+
+[+] Enumerating installed plugins (only ones marked as popular) ...
+
+   Time: 00:00:31 <=====================================================================================================> (1495 / 1495) 100.00% Time: 00:00:31
+
+[+] We found 1495 plugins:
+
+[+] Name: 404-redirection
+ |  Latest version: 1.8 
+ |  Last updated: 2015-09-30T18:54:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/404-redirection/
+
+[+] Name: 404-to-301
+ |  Latest version: 3.0.1 
+ |  Last updated: 2018-08-24T19:36:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/404-to-301/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: 404 to 301 <= 2.0.2 - Authenticated Blind SQL Injection
+    Reference: https://wpvulndb.com/vulnerabilities/8267
+    Reference: http://cinu.pl/research/wp-plugins/mail_e28f19a8f03f0517f94cb9fea15d8525.html
+    Reference: http://blog.cinu.pl/2015/11/php-static-code-analysis-vs-top-1000-wordpress-plugins.html
+[i] Fixed in: 2.0.3
+
+[!] Title: 404 to 301 <= 2.3.0 - Unauthenticated Stored Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8611
+    Reference: https://gist.github.com/ldionmarcil/6793df929449f8781bb1e213d7e75e23
+    Reference: https://github.com/joel-james/404-to-301/commit/7a4e2798eca79828c1611988289e06b6d9c18b61
+    Reference: https://sumofpwn.nl/advisory/2016/stored_cross_site_scripting_vulnerability_in_404_to_301_wordpress_plugin.html
+    Reference: http://seclists.org/fulldisclosure/2016/Nov/46
+[i] Fixed in: 2.3.1
+
+[+] Name: 404-to-homepage-littlebizzy
+ |  Latest version: 1.0.12 
+ |  Last updated: 2018-09-09T22:48:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/404-to-homepage-littlebizzy/
+
+[+] Name: 404-to-start
+ |  Latest version: 1.6 
+ |  Last updated: 2017-05-16T15:19:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/404-to-start/
+
+[+] Name: 404page
+ |  Latest version: 7 
+ |  Last updated: 2018-07-16T13:07:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/404page/
+
+[+] Name: a2-optimized-wp
+ |  Latest version: 2.0.10.7.5 
+ |  Last updated: 2018-10-08T12:34:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/a2-optimized-wp/
+
+[+] Name: a3-lazy-load
+ |  Latest version: 1.9.1 
+ |  Last updated: 2018-08-11T02:48:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/a3-lazy-load/
+
+[+] Name: accelerated-mobile-pages
+ |  Latest version: 0.9.97.19 
+ |  Last updated: 2018-10-04T12:01:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/accelerated-mobile-pages/
+
+[+] Name: accesspress-instagram-feed
+ |  Latest version: 3.0.5 
+ |  Last updated: 2018-08-16T07:36:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/accesspress-instagram-feed/
+
+[+] Name: accesspress-social-counter
+ |  Latest version: 1.7.5 
+ |  Last updated: 2018-07-31T09:15:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/accesspress-social-counter/
+
+[+] Name: accesspress-social-icons
+ |  Latest version: 1.7.1 
+ |  Last updated: 2018-08-10T07:46:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/accesspress-social-icons/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: AccessPress Social Icons <= 1.6.6 - Authenticated SQL Injection
+    Reference: https://wpvulndb.com/vulnerabilities/8799
+    Reference: http://www.defensecode.com/advisories/DC-2017-03-005_WordPress_AccessPress_Social_Icons_Plugin_Advisory.pdf
+    Reference: https://plugins.trac.wordpress.org/changeset/1626368/accesspress-social-icons
+[i] Fixed in: 1.6.7
+
+[+] Name: accesspress-social-login-lite
+ |  Latest version: 3.3.8 
+ |  Last updated: 2018-08-10T06:58:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/accesspress-social-login-lite/
+
+[+] Name: accesspress-social-share
+ |  Latest version: 4.4.0 
+ |  Last updated: 2018-08-10T11:12:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/accesspress-social-share/
+
+[+] Name: accesspress-twitter-feed
+ |  Latest version: 1.5.8 
+ |  Last updated: 2018-08-10T08:03:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/accesspress-twitter-feed/
+
+[+] Name: accordion-shortcodes
+ |  Latest version: 2.3.3 
+ |  Last updated: 2017-05-28T14:38:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/accordion-shortcodes/
+
+[+] Name: accordions
+ |  Latest version: 2.1.2 
+ |  Last updated: 2018-10-10T09:44:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/accordions/
+
+[+] Name: aceide
+ |  Latest version: 2.6.2 
+ |  Last updated: 2018-07-23T01:41:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/aceide/
+
+[+] Name: acf-content-analysis-for-yoast-seo
+ |  Latest version: 2.1.0 
+ |  Last updated: 2018-07-10T10:01:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/acf-content-analysis-for-yoast-seo/
+
+[+] Name: acf-field-date-time-picker
+ |  Latest version: 2.1.5 
+ |  Last updated: 2017-01-30T08:16:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/acf-field-date-time-picker/
+
+[+] Name: acf-image-crop-add-on
+ |  Latest version: 1.4.12 
+ |  Last updated: 2017-07-28T12:04:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/acf-image-crop-add-on/
+
+[+] Name: acf-qtranslate
+ |  Latest version: 1.7.24 
+ |  Last updated: 2018-09-27T11:59:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/acf-qtranslate/
+
+[+] Name: acf-to-rest-api
+ |  Latest version: 3.1.0 
+ |  Last updated: 2017-12-05T00:34:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/acf-to-rest-api/
+
+[+] Name: acme-demo-setup
+ |  Latest version: 1.0.7 
+ |  Last updated: 2017-12-16T15:14:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/acme-demo-setup/
+
+[+] Name: activecampaign-subscription-forms
+ |  Latest version: 7.0 
+ |  Last updated: 2018-06-07T13:34:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/activecampaign-subscription-forms/
+
+[+] Name: acurax-social-media-widget
+ |  Latest version: 3.2.7 
+ |  Last updated: 2018-02-17T19:33:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/acurax-social-media-widget/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Social Media Widget by Acurax <= 2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8282
+    Reference: http://cinu.pl/research/wp-plugins/mail_2cb6054c9482f1d2446420a96aa1b811.html
+    Reference: http://blog.cinu.pl/2015/11/php-static-code-analysis-vs-top-1000-wordpress-plugins.html
+[i] Fixed in: 2.3
+
+[!] Title: Social Media Widget by Acurax <= 3.2.5 - Stored XSS & CSRF
+    Reference: https://wpvulndb.com/vulnerabilities/9017
+    Reference: http://lists.openwall.net/full-disclosure/2018/01/10/8
+    Reference: https://plugins.trac.wordpress.org/changeset/1798382/acurax-social-media-widget
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6357
+[i] Fixed in: 3.2.6
+
+[+] Name: ad-injection
+ |  Latest version: 1.2.0.19 
+ |  Last updated: 2015-10-10T17:10:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/ad-injection/
+
+[+] Name: ad-inserter
+ |  Latest version: 2.4.1 
+ |  Last updated: 2018-10-11T17:55:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/ad-inserter/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Ad Inserter 1.5.2 - CSRF & XSS
+    Reference: https://wpvulndb.com/vulnerabilities/7974
+    Reference: http://packetstormsecurity.com/files/131798/
+[i] Fixed in: 1.5.3
+
+[!] Title: Ad Inserter <= 1.5.5 - Authenticated Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8337
+    Reference: http://cinu.pl/research/wp-plugins/mail_d501f11322e33ac13187b3c2caef1584.html
+    Reference: http://blog.cinu.pl/2015/11/php-static-code-analysis-vs-top-1000-wordpress-plugins.html
+[i] Fixed in: 1.5.6
+
+[+] Name: ad-widget
+ |  Latest version: 2.16.0 
+ |  Last updated: 2018-01-02T16:37:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/ad-widget/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: WordPress Ad Widget <= 2.11.0 - Authenticated Local File Inclusion (LFI)
+    Reference: https://wpvulndb.com/vulnerabilities/8789
+    Reference: https://plugins.trac.wordpress.org/changeset/1628751/ad-widget
+[i] Fixed in: 2.12.0
+
+[+] Name: add-category-to-pages
+ |  Latest version: 1.1 
+ |  Last updated: 2018-08-13T07:46:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/add-category-to-pages/
+
+[+] Name: add-from-server
+ |  Latest version: 3.3.3 
+ |  Last updated: 2018-04-01T04:28:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/add-from-server/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Add From Server <= 3.3.1 - Cross-Site Request Forgery (CSRF)
+    Reference: https://wpvulndb.com/vulnerabilities/8590
+    Reference: http://seclists.org/fulldisclosure/2016/Aug/40
+    Reference: https://sumofpwn.nl/advisory/2016/cross_site_request_forgery_vulnerability_in_add_from_server_wordpress_plugin.html
+[i] Fixed in: 3.3.2
+
+[+] Name: add-logo-to-admin
+ |  Latest version: 1.6.2 
+ |  Last updated: 2015-09-30T13:25:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/add-logo-to-admin/
+
+[+] Name: add-to-any
+ |  Latest version: 1.7.30 
+ |  Last updated: 2018-09-15T01:09:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/add-to-any/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: AddToAny Share Buttons <= 1.7.14 - Conditional Host Header Injection
+    Reference: https://wpvulndb.com/vulnerabilities/8885
+    Reference: https://plugins.trac.wordpress.org/changeset/1713858/add-to-any
+[i] Fixed in: 1.7.15
+
+[+] Name: addfunc-head-footer-code
+ |  Latest version: 2 
+ |  Last updated: 2018-09-27T18:24:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/addfunc-head-footer-code/
+
+[+] Name: addon-elements-for-elementor-page-builder
+ |  Latest version: 1.1 
+ |  Last updated: 2018-07-12T07:33:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/addon-elements-for-elementor-page-builder/
+
+[+] Name: addon-so-widgets-bundle
+ |  Latest version: 2.4.1 
+ |  Last updated: 2016-06-28T08:01:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/addon-so-widgets-bundle/
+
+[+] Name: addons-for-elementor
+ |  Latest version: 2.3.3 
+ |  Last updated: 2018-07-31T07:59:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/addons-for-elementor/
+
+[+] Name: addons-for-visual-composer
+ |  Latest version: 2.5 
+ |  Last updated: 2018-08-27T13:18:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/addons-for-visual-composer/
+
+[+] Name: addquicktag
+ |  Latest version: 2.5.2 
+ |  Last updated: 2017-11-16T13:03:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/addquicktag/
+
+[+] Name: addthis
+ |  Latest version: 6.1.7 
+ |  Last updated: 2018-09-11T16:22:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/addthis/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Smart Website Tools by AddThis 4.0.6-5.0.2 - Stored XSS
+    Reference: https://wpvulndb.com/vulnerabilities/8038
+    Reference: https://research.g0blin.co.uk/g0blin-00043/
+    Reference: https://plugins.trac.wordpress.org/changeset/1173656/addthis
+[i] Fixed in: 5.0.3
+
+[!] Title: AddThis Sharing Buttons <= 5.0.12 - Authenticated Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8246
+    Reference: http://cinu.pl/research/wp-plugins/mail_86159238a0492a8c7d32678a61912372.html
+    Reference: http://blog.cinu.pl/2015/11/php-static-code-analysis-vs-top-1000-wordpress-plugins.html
+[i] Fixed in: 5.0.13
+
+[+] Name: admin-custom-login
+ |  Latest version: 2.7.6 
+ |  Last updated: 2018-10-16T13:44:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/admin-custom-login/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Admin Custom Login <= 2.4.7.1 - Authenticated Stored Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8759
+    Reference: https://sumofpwn.nl/advisory/2016/admin_custom_login_wordpress_plugin_affected_by_persistent_cross_site_scripting_via_logo_url_field.html
+[i] Fixed in: 2.4.8
+
+[+] Name: admin-menu-editor
+ |  Latest version: 1.8.5 
+ |  Last updated: 2018-09-28T17:48:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/admin-menu-editor/
+
+[+] Name: admin-menu-tree-page-view
+ |  Latest version: 2.7.1 
+ |  Last updated: 2018-08-26T20:07:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/admin-menu-tree-page-view/
+
+[+] Name: admin-post-navigation
+ |  Latest version: 2.1 
+ |  Last updated: 2018-04-18T05:02:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/admin-post-navigation/
+
+[+] Name: adminimize
+ |  Latest version: 1.11.4 
+ |  Last updated: 2017-12-14T14:38:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/adminimize/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: adminimize 1.7.21 - 'page' Parameter Cross Site Scripting 
+    Reference: https://wpvulndb.com/vulnerabilities/6369
+    Reference: http://www.securityfocus.com/bid/50745/
+    Reference: http://seclists.org/bugtraq/2011/Nov/135
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4926
+[i] Fixed in: 1.7.22
+
+[+] Name: adrotate
+ |  Latest version: 4.13.2 
+ |  Last updated: 2018-08-28T15:30:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/adrotate/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: AdRotate <= 3.9.4 - clicktracker.php track Parameter SQL Injection
+    Reference: https://wpvulndb.com/vulnerabilities/6597
+    Reference: http://packetstormsecurity.com/files/125330/
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-1854
+    Reference: https://secunia.com/advisories/57079/
+    Reference: https://www.exploit-db.com/exploits/31834/
+[i] Fixed in: 3.9.5
+
+[!] Title: AdRotate <= 3.6.6 - SQL Injection 
+    Reference: https://wpvulndb.com/vulnerabilities/6598
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4671
+    Reference: https://secunia.com/advisories/46814/
+    Reference: https://www.exploit-db.com/exploits/18114/
+[i] Fixed in: 3.6.8
+
+[!] Title: AdRotate <= 3.6.5 - SQL Injection 
+    Reference: https://wpvulndb.com/vulnerabilities/6599
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4671
+    Reference: https://www.exploit-db.com/exploits/17888/
+[i] Fixed in: 3.6.8
+
+[+] Name: adsense-manager
+ |  Latest version: 4.0.3 
+ |  Last updated: 2012-10-11T13:24:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/adsense-manager/
+
+[+] Name: adsense-plugin
+ |  Latest version: 1.47 
+ |  Last updated: 2018-03-20T16:35:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/adsense-plugin/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Multiple BestWebSoft Plugins - Authenticated Reflected GET Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8796
+    Reference: http://www.defensecode.com/advisories/DC-2017-02-014_50_WordPress_plugins_by_BestWebSoft_Advisory.pdf
+    Reference: http://lists.webappsec.org/pipermail/websecurity_lists.webappsec.org/2017-April/010860.html
+[i] Fixed in: 1.44
+
+[+] Name: advanced-access-manager
+ |  Latest version: 5.4.3.2 
+ |  Last updated: 2018-10-03T00:03:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-access-manager/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Advanced Access Manager 2.8.2 - Admin User File Read/Write
+    Reference: https://wpvulndb.com/vulnerabilities/7611
+    Reference: https://security.dxw.com/advisories/advanced-access-manager-allows-admin-users-to-write-arbitrary-text-to-arbitrary-locations-which-could-lead-to-arbitrary-code-execution-etc/
+    Reference: http://seclists.org/fulldisclosure/2014/Sep/21
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6059
+[i] Fixed in: 2.8.3
+
+[!] Title: Advanced Access Manager <= 3.2.1 - Privilege Escalation
+    Reference: https://wpvulndb.com/vulnerabilities/8521
+    Reference: http://www.pritect.net/blog/advanced-access-manager-3-2-1-security-vulnerability
+[i] Fixed in: 3.2.2
+
+[+] Name: advanced-ads
+ |  Latest version: 1.10.7 
+ |  Last updated: 2018-10-12T09:34:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-ads/
+
+[+] Name: advanced-cf7-db
+ |  Latest version: 1.4.4 
+ |  Last updated: 2018-08-11T04:13:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-cf7-db/
+
+[+] Name: advanced-custom-fields
+ |  Latest version: 5.7.7 
+ |  Last updated: 2018-10-03T03:54:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-custom-fields/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Advanced Custom Fields <= 3.5.1 - Remote File Inclusion
+    Reference: https://wpvulndb.com/vulnerabilities/6103
+    Reference: http://packetstormsecurity.com/files/119221/
+    Reference: https://secunia.com/advisories/51037/
+    Reference: https://www.rapid7.com/db/modules/exploit/unix/webapp/wp_advanced_custom_fields_exec
+    Reference: https://www.exploit-db.com/exploits/23856/
+[i] Fixed in: 3.5.2
+
+[+] Name: advanced-custom-fields-font-awesome
+ |  Latest version: 2.1.2 
+ |  Last updated: 2018-02-19T21:39:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-custom-fields-font-awesome/
+
+[+] Name: advanced-custom-fields-nav-menu-field
+ |  Latest version: 2.0.0 
+ |  Last updated: 2014-10-15T05:33:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-custom-fields-nav-menu-field/
+
+[+] Name: advanced-custom-fields-table-field
+ |  Latest version: 1.2.5 
+ |  Last updated: 2018-10-08T18:31:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-custom-fields-table-field/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Advanced Custom Fields: Table Field <= 1.1.12 - Stored Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8589
+    Reference: https://security.dxw.com/advisories/xss-in-advanced-custom-fields-table-field-could-allow-authenticated-users-to-do-almost-anything-an-admin-user-can/
+[i] Fixed in: 1.1.13
+
+[+] Name: advanced-database-cleaner
+ |  Latest version: 2.0.0 
+ |  Last updated: 2018-06-12T00:14:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-database-cleaner/
+
+[+] Name: advanced-excerpt
+ |  Latest version: 4.2.5 
+ |  Last updated: 2018-07-09T14:08:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-excerpt/
+
+[+] Name: advanced-iframe
+ |  Latest version: 7.5.7 
+ |  Last updated: 2018-05-08T21:53:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-iframe/
+
+[+] Name: advanced-image-styles
+ |  Latest version: 0.4.1 
+ |  Last updated: 2018-02-10T15:01:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-image-styles/
+
+[+] Name: advanced-post-slider
+ |  Latest version: 2.5.1 
+ |  Last updated: 2018-05-19T09:55:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-post-slider/
+
+[+] Name: advanced-random-posts-widget
+ |  Latest version: 2.1.1 
+ |  Last updated: 2017-10-19T06:56:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-random-posts-widget/
+
+[+] Name: advanced-responsive-video-embedder
+ |  Latest version: 8.9.8 
+ |  Last updated: 2018-10-02T10:45:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-responsive-video-embedder/
+
+[+] Name: advanced-sidebar-menu
+ |  Latest version: 7.4.0 
+ |  Last updated: 2018-09-19T18:35:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-sidebar-menu/
+
+[+] Name: advanced-woo-search
+ |  Latest version: 1.53 
+ |  Last updated: 2018-10-15T08:50:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-woo-search/
+
+[+] Name: advanced-wp-columns
+ |  Latest version: 2.0.6 
+ |  Last updated: 2015-12-28T03:37:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-wp-columns/
+
+[+] Name: advanced-wp-reset
+ |  Latest version: 1.0.1 
+ |  Last updated: 2018-03-01T23:35:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/advanced-wp-reset/
+
+[+] Name: affilinet-performance-module
+ |  Latest version: 1.9.5 
+ |  Last updated: 2018-05-11T12:28:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/affilinet-performance-module/
+
+[+] Name: aftership-woocommerce-tracking
+ |  Latest version: 1.9.1 
+ |  Last updated: 2018-09-06T10:24:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/aftership-woocommerce-tracking/
+
+[+] Name: ag-custom-admin
+ |  Latest version: 6.4.1 
+ |  Last updated: 2018-06-07T18:12:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/ag-custom-admin/
+
+[+] Name: ajax-load-more
+ |  Latest version: 3.7.1 
+ |  Last updated: 2018-10-03T15:00:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/ajax-load-more/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Ajax Load More <= 2.8.1.1 - Authenticated File Upload & Deletion
+    Reference: https://wpvulndb.com/vulnerabilities/8209
+    Reference: https://wordpress.org/plugins/ajax-load-more/changelog/
+    Reference: https://www.exploit-db.com/exploits/38660/
+[i] Fixed in: 2.8.1.2
+
+[!] Title: Ajax Load More <= 2.11.1 - Local File Inclusion (LFI)
+    Reference: https://wpvulndb.com/vulnerabilities/8603
+    Reference: http://seclists.org/fulldisclosure/2016/Aug/72
+    Reference: https://sumofpwn.nl/advisory/2016/ajax_load_more_local_file_inclusion_vulnerability.html
+[i] Fixed in: 2.11.2
+
+[+] Name: ajax-search-lite
+ |  Latest version: 4.7.18 
+ |  Last updated: 2018-10-01T11:54:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/ajax-search-lite/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Ajax Search Lite <= 3.1 - Authenticated RCE
+    Reference: https://wpvulndb.com/vulnerabilities/7858
+    Reference: http://web.archive.org/web/20150619084745/http://research.evex.pw/?vuln=9
+[i] Fixed in: 3.11
+
+[+] Name: ajax-thumbnail-rebuild
+ |  Latest version: 1.13 
+ |  Last updated: 2018-09-04T10:10:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/ajax-thumbnail-rebuild/
+
+[+] Name: akismet
+ |  Latest version: 4.0.8 
+ |  Last updated: 2018-06-19T18:18:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/akismet/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Akismet 2.5.0-3.1.4 - Unauthenticated Stored Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8215
+    Reference: http://blog.akismet.com/2015/10/13/akismet-3-1-5-wordpress/
+    Reference: https://blog.sucuri.net/2015/10/security-advisory-stored-xss-in-akismet-wordpress-plugin.html
+[i] Fixed in: 3.1.5
+
+[+] Name: akismet-privacy-policies
+ |  Latest version: 1.1.2 
+ |  Last updated: 2018-04-03T20:22:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/akismet-privacy-policies/
+
+[+] Name: all-404-redirect-to-homepage
+ |  Latest version: 1.14 
+ |  Last updated: 2018-09-29T14:30:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/all-404-redirect-to-homepage/
+
+[+] Name: all-in-one-event-calendar
+ |  Latest version: 2.5.32 
+ |  Last updated: 2018-08-03T20:07:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/all-in-one-event-calendar/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: All-in-One Event Calendar 1.9 - wp-admin/post-new.php Multiple Parameter XSS
+    Reference: https://wpvulndb.com/vulnerabilities/6318
+    Reference: https://firefart.at/post/sql-injection-and-xss-in-all-in-one-event-calendar-wordpress-plugin/
+    Reference: https://secunia.com/advisories/54038/
+[i] Fixed in: 1.10
+
+[!] Title: All-in-One Event Calendar 1.9 - index.php Multiple Parameter SQL Injection
+    Reference: https://wpvulndb.com/vulnerabilities/6319
+    Reference: https://firefart.at/post/sql-injection-and-xss-in-all-in-one-event-calendar-wordpress-plugin/
+    Reference: https://secunia.com/advisories/54038/
+[i] Fixed in: 1.10
+
+[!] Title: All-in-One Event Calendar Plugin 1.4 & 1.5 Multiple XSS 
+    Reference: https://wpvulndb.com/vulnerabilities/7601
+    Reference: https://www.htbridge.com/advisory/HTB23082
+    Reference: http://seclists.org/bugtraq/2012/Apr/70
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1835
+[i] Fixed in: 1.8.2
+
+[+] Name: all-in-one-favicon
+ |  Latest version: 4.7 
+ |  Last updated: 2018-07-23T16:40:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/all-in-one-favicon/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: All In One Favicon <= 4.6 - Multiple Stored Authenticated XSS
+    Reference: https://wpvulndb.com/vulnerabilities/9104
+    Reference: https://hackpuntes.com/cve-2018-13832-wordpress-plugin-all-in-one-favicon-4-6-autenticado-multiples-cross-site-scripting-persistentes/
+    Reference: https://plugins.trac.wordpress.org/changeset/1913664/all-in-one-favicon
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-13832
+[i] Fixed in: 4.7
+
+[+] Name: all-in-one-schemaorg-rich-snippets
+ |  Latest version: 1.5.4 
+ |  Last updated: 2018-08-30T06:33:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/all-in-one-schemaorg-rich-snippets/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: All In One Schema.org Rich Snippets <= 1.4.4 - Authenticated Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8834
+    Reference: http://www.defensecode.com/advisories/DC-2017-01-002_WordPress_All_In_One_Schemaorg_Rich_Snippets_Plugin_Advisory.pdf
+    Reference: http://seclists.org/fulldisclosure/2017/May/97
+[i] Fixed in: 1.5.0
+
+[+] Name: all-in-one-seo-pack
+ |  Latest version: 2.8 
+ |  Last updated: 2018-09-10T17:25:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/all-in-one-seo-pack/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: All in One SEO Pack <= 2.1.5 - aioseop_functions.php new_meta Parameter XSS
+    Reference: https://wpvulndb.com/vulnerabilities/6888
+    Reference: http://blog.sucuri.net/2014/05/vulnerability-found-in-the-all-in-one-seo-pack-wordpress-plugin.html
+[i] Fixed in: 2.1.6
+
+[!] Title: All in One SEO Pack <= 2.1.5 - Unspecified Privilege Escalation
+    Reference: https://wpvulndb.com/vulnerabilities/6889
+    Reference: http://blog.sucuri.net/2014/05/vulnerability-found-in-the-all-in-one-seo-pack-wordpress-plugin.html
+[i] Fixed in: 2.1.6
+
+[!] Title: All in One SEO Pack <= 2.0.3 - XSS 
+    Reference: https://wpvulndb.com/vulnerabilities/6890
+    Reference: http://packetstormsecurity.com/files/123490/
+    Reference: http://www.securityfocus.com/bid/62784/
+    Reference: http://seclists.org/bugtraq/2013/Oct/8
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5988
+    Reference: https://secunia.com/advisories/55133/
+[i] Fixed in: 2.0.3.1
+
+[!] Title: All in One SEO Pack <= 2.2.5.1 - Information Disclosure
+    Reference: https://wpvulndb.com/vulnerabilities/7881
+    Reference: http://jvn.jp/en/jp/JVN75615300/index.html
+    Reference: http://semperfiwebdesign.com/blog/all-in-one-seo-pack/all-in-one-seo-pack-release-history/
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0902
+[i] Fixed in: 2.2.6
+
+[!] Title: All in One SEO Pack <= 2.2.6.1 - Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/7916
+    Reference: https://blog.sucuri.net/2015/04/security-advisory-xss-vulnerability-affecting-multiple-wordpress-plugins.html
+[i] Fixed in: 2.2.6.2
+
+[!] Title: All in One SEO Pack <= 2.3.6.1 - Unauthenticated Stored Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8538
+    Reference: http://seclists.org/fulldisclosure/2016/Jul/23
+    Reference: https://semperfiwebdesign.com/blog/all-in-one-seo-pack/all-in-one-seo-pack-release-history/
+    Reference: https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_in_all_in_one_seo_pack_wordpress_plugin.html
+    Reference: https://wptavern.com/all-in-one-seo-2-3-7-patches-persistent-xss-vulnerability
+    Reference: https://www.wordfence.com/blog/2016/07/xss-vulnerability-all-in-one-seo-pack-plugin/
+[i] Fixed in: 2.3.7
+
+[!] Title: All in One SEO Pack <= 2.3.7 -  Unauthenticated Stored Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8558
+    Reference: https://www.wordfence.com/blog/2016/07/new-xss-vulnerability-all-in-one-seo-pack/
+    Reference: https://semperfiwebdesign.com/blog/all-in-one-seo-pack/all-in-one-seo-pack-release-history/
+[i] Fixed in: 2.3.8
+
+[+] Name: all-in-one-webmaster
+ |  Latest version: 14.0 
+ |  Last updated: 2018-05-20T03:33:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/all-in-one-webmaster/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: All in one webmaster 8.2.3 - Script Insertion CSRF
+    Reference: https://wpvulndb.com/vulnerabilities/6805
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2696
+    Reference: https://secunia.com/advisories/52877/
+[i] Fixed in: 8.2.4
+
+[+] Name: all-in-one-wp-migration
+ |  Latest version: 6.77 
+ |  Last updated: 2018-10-02T13:52:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/all-in-one-wp-migration/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: All-in-One WP Migration <= 2.0.4 - Unauthenticated Database Export
+    Reference: https://wpvulndb.com/vulnerabilities/7857
+    Reference: http://www.pritect.net/blog/all-in-one-wp-migration-2-0-4-security-vulnerability
+    Reference: https://www.rapid7.com/db/modules/auxiliary/gather/wp_all_in_one_migration_export
+[i] Fixed in: 2.0.5
+
+[!] Title: All-in-One WP Migration <= 6.45 - Reflected Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8851
+    Reference: https://wordpress.org/plugins/all-in-one-wp-migration/#developers
+[i] Fixed in: 6.46
+
+[+] Name: all-in-one-wp-security-and-firewall
+ |  Latest version: 4.3.6 
+ |  Last updated: 2018-07-24T08:08:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/all-in-one-wp-security-and-firewall/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: All In One WP Security plugin 3.8.2 - 2xSQL Injections
+    Reference: https://wpvulndb.com/vulnerabilities/7600
+    Reference: http://www.securityfocus.com/archive/1/533519
+    Reference: https://www.htbridge.com/advisory/HTB23231
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6242
+[i] Fixed in: 3.8.3
+
+[!] Title: All In One WP Security & Firewall <= 3.8.7 - SQL Injection
+    Reference: https://wpvulndb.com/vulnerabilities/7834
+    Reference: http://jvn.jp/en/jp/JVN30832515/index.html
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0894
+[i] Fixed in: 3.8.8
+
+[!] Title: All In One WP Security & Firewall <= 3.8.9 - CSRF
+    Reference: https://wpvulndb.com/vulnerabilities/7835
+    Reference: http://jvn.jp/en/jp/JVN87204433/index.html
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0895
+[i] Fixed in: 3.9.0
+
+[!] Title: All In One WP Security & Firewall <= 3.9.0 - Blind SQL Injection
+    Reference: https://wpvulndb.com/vulnerabilities/7886
+    Reference: http://www.homelab.it/index.php/2015/04/07/wordpress-all-in-one-wp-security-sql-injection-vulnerability/
+    Reference: http://packetstormsecurity.com/files/131317/
+    Reference: https://www.exploit-db.com/exploits/36671/
+[i] Fixed in: 3.9.1
+
+[!] Title: All In One WP Security & Firewall <= 3.9.7 - Unauthenticated Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8245
+    Reference: http://cinu.pl/research/wp-plugins/mail_38c27c99f98a7b62cd8c7d4b6866a23d.html
+    Reference: http://blog.cinu.pl/2015/11/php-static-code-analysis-vs-top-1000-wordpress-plugins.html
+[i] Fixed in: 3.9.8
+
+[!] Title: All In One WP Security & Firewall <= 4.1.2 - Multiple vulnerabilities in login CAPTCHA
+    Reference: https://wpvulndb.com/vulnerabilities/8573
+    Reference: https://sumofpwn.nl/advisory/2016/multiple_vulnerabilities_in_all_in_one_wp_security___firewall_plugin_login_captcha.html
+    Reference: http://seclists.org/fulldisclosure/2016/Jul/88
+[i] Fixed in: 4.1.3
+
+[!] Title: All In One WP Security & Firewall 4.1.4-4.1.9 - Authenticated Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8665
+    Reference: https://sumofpwn.nl/advisory/2016/cross_site_scripting_in_all_in_one_wp_security___firewall_wordpress_plugin.html
+    Reference: http://seclists.org/fulldisclosure/2016/Nov/79
+[i] Fixed in: 4.2.0
+
+[!] Title: All In One WP Security & Firewall <= 4.2.1 - Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8696
+    Reference: https://plugins.trac.wordpress.org/changeset/1534803/all-in-one-wp-security-and-firewall
+    Reference: https://blog.ripstech.com/2016/the-state-of-wordpress-security/
+[i] Fixed in: 4.2.2
+
+[+] Name: all-meta-tags
+ |  Latest version: 4.24 
+ |  Last updated: 2018-10-09T07:05:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/all-meta-tags/
+
+[+] Name: allow-php-in-posts-and-pages
+ |  Latest version: 3.0.4 
+ |  Last updated: 2013-04-30T10:33:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/allow-php-in-posts-and-pages/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Allow PHP in Posts & Pages <= 2.0.0.RC2 - SQL Injection 
+    Reference: https://wpvulndb.com/vulnerabilities/6373
+    Reference: https://www.exploit-db.com/exploits/17688/
+[i] Fixed in: 2.1.0
+
+[+] Name: amazon-associates-link-builder
+ |  Latest version: 1.8.0 
+ |  Last updated: 2018-07-25T06:20:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/amazon-associates-link-builder/
+
+[+] Name: amazon-s3-and-cloudfront
+ |  Latest version: 2.0 
+ |  Last updated: 2018-09-27T13:45:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/amazon-s3-and-cloudfront/
+
+[+] Name: amazon-web-services
+ |  Latest version: 1.0.5 
+ |  Last updated: 2018-02-20T18:11:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/amazon-web-services/
+
+[+] Name: amazonjs
+ |  Latest version: 0.8 
+ |  Last updated: 2016-04-27T14:40:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/amazonjs/
+
+[+] Name: amp
+ |  Latest version: 0.7.2 
+ |  Last updated: 2018-06-27T19:52:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/amp/
+
+[+] Name: amr-shortcode-any-widget
+ |  Latest version: 3.6 
+ |  Last updated: 2018-01-07T05:15:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/amr-shortcode-any-widget/
+
+[+] Name: analytics-code
+ |  Latest version: 1.2.3 
+ |  Last updated: 2017-06-13T11:23:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/analytics-code/
+
+[+] Name: analytics-counter
+ |  Latest version: 3.5.7 
+ |  Last updated: 2017-12-12T15:34:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/analytics-counter/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Google Analytics Counter Tracker <= 3.4.0 - Unauthenticated PHP Object Injection
+    Reference: https://wpvulndb.com/vulnerabilities/8693
+    Reference: https://sumofpwn.nl/advisory/2016/google_analytics_counter_tracker_wordpress_plugin_unauthenticed_php_object_injection_vulnerability.html
+    Reference: http://seclists.org/fulldisclosure/2016/Dec/38
+    Reference: https://plugins.trac.wordpress.org/changeset/1536434/analytics-counter
+    Reference: https://www.pluginvulnerabilities.com/2016/11/15/vulnerability-details-php-object-injection-vulnerability-in-google-analytics-counter-tracker/
+[i] Fixed in: 3.5.0
+
+[+] Name: animate-it
+ |  Latest version: 2.3.2 
+ |  Last updated: 2018-06-05T09:32:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/animate-it/
+
+[+] Name: anti-spam
+ |  Latest version: 5.2 
+ |  Last updated: 2018-06-03T18:53:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/anti-spam/
+
+[+] Name: antispam-bee
+ |  Latest version: 2.9.0 
+ |  Last updated: 2018-09-16T12:02:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/antispam-bee/
+
+[+] Name: antivirus
+ |  Latest version: 1.3.9 
+ |  Last updated: 2016-07-12T11:16:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/antivirus/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: AntiVirus 1.0 - PHP Backdoor Detection Bypass
+    Reference: https://wpvulndb.com/vulnerabilities/6854
+    Reference: http://packetstormsecurity.com/files/121833/
+    Reference: http://seclists.org/fulldisclosure/2013/Jun/0
+[i] Fixed in: 1.1
+
+[!] Title: AntiVirus 1.0 - uninstall.php Direct Request Path Disclosure
+    Reference: https://wpvulndb.com/vulnerabilities/6855
+    Reference: http://packetstormsecurity.com/files/121833/
+    Reference: http://seclists.org/fulldisclosure/2013/Jun/0
+[i] Fixed in: 1.1
+
+[+] Name: any-mobile-theme-switcher
+ |  Latest version: 2.1 
+ |  Last updated: 2017-02-01T16:38:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/any-mobile-theme-switcher/
+
+[+] Name: anywhere-elementor
+ |  Latest version: 1.1 
+ |  Last updated: 2018-10-01T06:51:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/anywhere-elementor/
+
+[+] Name: api-key-for-google-maps
+ |  Latest version: 1.2.0 
+ |  Last updated: 2018-06-25T10:18:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/api-key-for-google-maps/
+
+[+] Name: aqua-page-builder
+ |  Latest version: 1.1.5 
+ |  Last updated: 2015-11-29T18:50:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/aqua-page-builder/
+
+[+] Name: arconix-faq
+ |  Latest version: 1.8.3 
+ |  Last updated: 2018-08-17T07:17:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/arconix-faq/
+
+[+] Name: ari-adminer
+ |  Latest version: 1.1.11 
+ |  Last updated: 2018-04-21T14:51:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/ari-adminer/
+
+[+] Name: aryo-activity-log
+ |  Latest version: 2.5.1 
+ |  Last updated: 2018-09-27T17:47:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/aryo-activity-log/
+
+[!] We could not determine the version installed. All of the past known vulnerabilities will be output to allow you to do your own manual investigation.
+
+[!] Title: Activity Log - Full Path Disclosure
+    Reference: https://wpvulndb.com/vulnerabilities/7133
+    Reference: https://github.com/KingYes/wordpress-aryo-activity-log/pull/27
+[i] Fixed in: 2.0.4
+
+[!] Title: Activity Log <= 2.3.1 - Stored Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8543
+    Reference: https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_in_wordpress_activity_log_plugin.html
+    Reference: http://seclists.org/fulldisclosure/2016/Jul/25
+    Reference: https://www.exploit-db.com/exploits/40083/
+[i] Fixed in: 2.3.2
+
+[!] Title: Activity Log <= 2.3.2 - Cross-Site Scripting (XSS)
+    Reference: https://wpvulndb.com/vulnerabilities/8584
+    Reference: http://seclists.org/fulldisclosure/2016/Aug/15
+    Reference: https://sumofpwn.nl/advisory/2016/cross_site_scripting_vulnerability_in_search_function_activity_log_wordpress_plugin.html
+[i] Fixed in: 2.3.3
+
+[!] Title: Activity Log <= 2.3.2 - Cross-Site Scripting (XSS) in 'page'
+    Reference: https://wpvulndb.com/vulnerabilities/8585
+    Reference: http://seclists.org/fulldisclosure/2016/Aug/16
+    Reference: https://sumofpwn.nl/advisory/2016/cross_site_scripting_in_activity_log_wordpress_plugin.html
+[i] Fixed in: 2.3.3
+
+[!] Title: Activity Log <= 2.4.0 - Multiple Cross-Site Scripting (XSS) 
+    Reference: https://wpvulndb.com/vulnerabilities/9049
+    Reference: https://plugins.trac.wordpress.org/changeset/1836276
+    Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8729
+[i] Fixed in: 2.4.1
+
+[+] Name: asesor-cookies-para-la-ley-en-espana
+ |  Latest version: 0.26 
+ |  Last updated: 2017-05-06T16:34:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/asesor-cookies-para-la-ley-en-espana/
+
+[+] Name: astra-sites
+ |  Latest version: 1.2.7 
+ |  Last updated: 2018-07-12T09:59:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/astra-sites/
+
+[+] Name: async-javascript
+ |  Latest version: 2.18.06.13 
+ |  Last updated: 2018-06-13T20:49:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/async-javascript/
+
+[+] Name: attachment-pages-redirect
+ |  Latest version: 1.1 
+ |  Last updated: 2018-01-18T12:15:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/attachment-pages-redirect/
+
+[+] Name: attachments
+ |  Latest version: 3.5.9 
+ |  Last updated: 2017-10-11T02:17:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/attachments/
+
+[+] Name: auto-post-thumbnail
+ |  Latest version: 3.4.1 
+ |  Last updated: 2017-03-29T04:50:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/auto-post-thumbnail/
+
+[+] Name: auto-terms-of-service-and-privacy-policy
+ |  Latest version: 2.2.0 
+ |  Last updated: 2018-10-03T18:49:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/auto-terms-of-service-and-privacy-policy/
+
+[+] Name: autodescription
+ |  Latest version: 3.1.4 
+ |  Last updated: 2018-10-09T22:21:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/autodescription/
+
+[+] Name: automatic-domain-changer
+ |  Latest version: 2.0.2 
+ |  Last updated: 2018-08-24T20:48:00.000Z
+ |  Location: http://52.9.13.75:30100/wp-content/plugins/automatic-domain-changer/
+
